@@ -14,6 +14,12 @@
 		4497C1AA1D65D522000C77EF /* hitGround.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4497C1A31D65D522000C77EF /* hitGround.wav */; };
 		4497C1AB1D65D522000C77EF /* pop.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4497C1A41D65D522000C77EF /* pop.wav */; };
 		4497C1AC1D65D522000C77EF /* whack.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4497C1A51D65D522000C77EF /* whack.wav */; };
+		44B137501D700A8900805FAD /* sjbz.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44B1374F1D700A8900805FAD /* sjbz.mp3 */; };
+		44B137521D700BCC00805FAD /* txfs.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44B137511D700BCC00805FAD /* txfs.mp3 */; };
+		44B137541D700BDE00805FAD /* tooSimple.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44B137531D700BDE00805FAD /* tooSimple.mp3 */; };
+		44B137561D700BE800805FAD /* someTimesNaive.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44B137551D700BE800805FAD /* someTimesNaive.mp3 */; };
+		44B137581D700BF800805FAD /* hck.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44B137571D700BF800805FAD /* hck.mp3 */; };
+		44B1375A1D700C0600805FAD /* naive.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44B137591D700C0600805FAD /* naive.mp3 */; };
 		44E036EE1D64BB5B00950051 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E036ED1D64BB5B00950051 /* AppDelegate.swift */; };
 		44E036F01D64BB5B00950051 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 44E036EF1D64BB5B00950051 /* GameScene.sks */; };
 		44E036F21D64BB5B00950051 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E036F11D64BB5B00950051 /* GameScene.swift */; };
@@ -32,6 +38,12 @@
 		4497C1A31D65D522000C77EF /* hitGround.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hitGround.wav; sourceTree = "<group>"; };
 		4497C1A41D65D522000C77EF /* pop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pop.wav; sourceTree = "<group>"; };
 		4497C1A51D65D522000C77EF /* whack.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = whack.wav; sourceTree = "<group>"; };
+		44B1374F1D700A8900805FAD /* sjbz.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sjbz.mp3; sourceTree = "<group>"; };
+		44B137511D700BCC00805FAD /* txfs.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = txfs.mp3; sourceTree = "<group>"; };
+		44B137531D700BDE00805FAD /* tooSimple.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tooSimple.mp3; sourceTree = "<group>"; };
+		44B137551D700BE800805FAD /* someTimesNaive.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = someTimesNaive.mp3; sourceTree = "<group>"; };
+		44B137571D700BF800805FAD /* hck.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hck.mp3; sourceTree = "<group>"; };
+		44B137591D700C0600805FAD /* naive.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = naive.mp3; sourceTree = "<group>"; };
 		44E036EA1D64BB5A00950051 /* 绫波丽.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "绫波丽.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44E036ED1D64BB5B00950051 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44E036EF1D64BB5B00950051 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -58,6 +70,12 @@
 		4497C19E1D65D522000C77EF /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
+				44B137551D700BE800805FAD /* someTimesNaive.mp3 */,
+				44B137591D700C0600805FAD /* naive.mp3 */,
+				44B137511D700BCC00805FAD /* txfs.mp3 */,
+				44B137571D700BF800805FAD /* hck.mp3 */,
+				44B137531D700BDE00805FAD /* tooSimple.mp3 */,
+				44B1374F1D700A8900805FAD /* sjbz.mp3 */,
 				4497C19F1D65D522000C77EF /* coin.wav */,
 				4497C1A01D65D522000C77EF /* ding.wav */,
 				4497C1A11D65D522000C77EF /* falling.wav */,
@@ -130,12 +148,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = demo;
 				TargetAttributes = {
 					44E036E91D64BB5A00950051 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = D96R9Q6FU7;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -164,12 +183,18 @@
 			files = (
 				44E036F01D64BB5B00950051 /* GameScene.sks in Resources */,
 				4497C1AA1D65D522000C77EF /* hitGround.wav in Resources */,
+				44B137521D700BCC00805FAD /* txfs.mp3 in Resources */,
 				4497C1A71D65D522000C77EF /* ding.wav in Resources */,
 				44E036FC1D64BB5B00950051 /* LaunchScreen.storyboard in Resources */,
 				4497C1A91D65D522000C77EF /* flapping.wav in Resources */,
+				44B137561D700BE800805FAD /* someTimesNaive.mp3 in Resources */,
+				44B137541D700BDE00805FAD /* tooSimple.mp3 in Resources */,
 				44E036F91D64BB5B00950051 /* Assets.xcassets in Resources */,
+				44B137581D700BF800805FAD /* hck.mp3 in Resources */,
+				44B1375A1D700C0600805FAD /* naive.mp3 in Resources */,
 				44E10C451D6D284A00BAFBE4 /* bird.atlas in Resources */,
 				4497C1A81D65D522000C77EF /* falling.wav in Resources */,
+				44B137501D700A8900805FAD /* sjbz.mp3 in Resources */,
 				4497C1A61D65D522000C77EF /* coin.wav in Resources */,
 				44E036F71D64BB5B00950051 /* Main.storyboard in Resources */,
 				4497C1AB1D65D522000C77EF /* pop.wav in Resources */,
@@ -226,8 +251,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -273,8 +300,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -294,6 +323,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "";
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -307,6 +337,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = demo.MyFlappyBird;
 				PRODUCT_NAME = "绫波丽";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -319,6 +350,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = demo.MyFlappyBird;
 				PRODUCT_NAME = "绫波丽";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
